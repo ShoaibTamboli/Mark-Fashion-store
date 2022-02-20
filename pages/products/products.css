@@ -10,12 +10,10 @@
 }
 
 .product-listing-container{
- 
-    height: 900px;
+height: 900px;
  display: flex;
 }
 .product-listing{
-    background-color: yellow;
     height: 200px;
 }
 
