@@ -7,12 +7,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/pages/cart/cart.css">
+    <link rel="stylesheet" href="https://mark-ui.netlify.app/style.css">
     <title>Mark | Cart</title>
 </head>
 
 <body>
     <header>
-        <nav>
+        <div class="navigation-bar">
             <div class="logo">MARK</div>
             <ul>
                 <li>
@@ -30,7 +32,7 @@
                 </button>
                 <div>
                     <a href="/pages/wishlist/wishlist.html">
-                        <i class="fa fa-heart icon" ></i>
+                        <i class="fa fa-heart icon"></i>
                     </a>
                 </div>
                 <div>
@@ -39,8 +41,51 @@
                     </a>
                 </div>
             </div>
-        </nav>
+        </div>
     </header>
 
-    </body>
-    </html>
+    <section>
+
+        <h2 class="mycart-head">My Cart</h2>
+
+        <div class="cart-container">
+            <div class="vertical-cart-item">
+                <div>
+                    <img src="/Images/Printshirt.jpg" alt="Shirt">
+
+                </div>
+                <div class="cart-info">
+                    <h4>Lee Printed shirt</h4>
+                    <p>Slim fit casual shirt</p>
+                    <h2>899/-</h2>
+                    <p> Quantity:
+                        <input type="number" value="2"> </p>
+                        <span>  <button class="btn btn-primary btn-width">Add to wishlist</button></span>
+                  <span><button class="btn btn-secondary">Remove from cart</button></span>
+                   
+                </div>
+            </div>
+
+            <div class="price-details">
+
+                <h2>Price Details</h2>
+                <hr>
+               <div class="price-detail-spacing"> <span>Price 2 items </span> <span class="price-pos-end">₹1798/-</span>  </div>
+               <div class="price-detail-spacing"> <span>Discount </span> <span class="price-pos-end">- ₹179/- </span> </div>
+               <div class="price-detail-spacing"> <span>Delivery Charges </span>  <span class="price-pos-end">₹100/-</span> </div>
+                <hr>
+               <div class="price-detail-spacing"> <span>Total Amount</span>  <span class="price-pos-end">₹1719/-</span> </div>
+               <hr>
+               <p class="mini-center">You will save ₹179 on this order</p>
+               <div class="btn-width" ><button class="btn btn-primary mini-center ">Place Order</button> </div>
+            </div>
+
+        
+            
+        </div>
+
+    </section>
+
+</body>
+
+</html>
