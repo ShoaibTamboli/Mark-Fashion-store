@@ -48,3 +48,11 @@
     text-align: center;
 }
 
+.price-pos-end{
+    margin-left: auto;
+    padding: 0px 25px;
+}
+
+.btn-width{
+    width: 147px !important;
+}
