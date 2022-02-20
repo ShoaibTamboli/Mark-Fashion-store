@@ -1,0 +1,24 @@
+.filter-section {
+  
+    height: 50%;
+    width:100%;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
+.product-listing-container{
+ 
+    height: 900px;
+ display: flex;
+}
+.product-listing{
+    background-color: yellow;
+    height: 200px;
+}
+
+.radio-label{
+    display: inline !important ;
+}
