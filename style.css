@@ -1,8 +1,13 @@
 :root {
-    --primary-color: rgb(207, 213, 233);
-    --secondary-color: rgb(68, 69, 70);
+    --Blue-color: rgb(207, 213, 233);
+    --DBlue-color: rgb(68, 69, 70);
     --white-color: #fff;
     --black-color: #000;
+    --slategray: rgb(217 217 217 / 40%);
+    --wishlist-icon-color: rgb(252, 0, 0);
+    --primary-color: #563d7c;
+    --secondary-color: #4c4c4e;
+
 }
 *{
     margin: 0;
@@ -10,7 +15,7 @@
 }
 
 header{
-    background-color: var(--primary-color);
+    background-color: var(--Blue-color);
     margin: 0.2rem 0rem;
 }
 .navigation-bar{
@@ -27,7 +32,7 @@ header{
 
 .logo:hover{
 color: var(--secondary-color);
-border-bottom: 1px solid var(--secondary-color);
+border-bottom: 1px solid var(--DBlue-color);
 }
 .navigation-bar ul{
     height: 3rem;
@@ -114,11 +119,11 @@ border-bottom: 1px solid var(--secondary-color);
 }
 
 footer{
-    background-color:var(--primary-color);
+    background-color:var(--Blue-color);
     height: 2.3rem;
 }
 footer p{
-    color: var(--secondary-color);
+    color: var(--white-color);
     
 }
 
