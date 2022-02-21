@@ -71,8 +71,12 @@ border-bottom: 1px solid var(--DBlue-color);
     padding: 4px;
     border-radius: 5px;
     background-color: var(--primary-color);
-    color: var(--white-color);
-    cursor: pointer;
+    
+}
+
+.btn-login a{
+    text-decoration: none;
+    color:var(--white-color);
 }
 
 .fa-icons{
