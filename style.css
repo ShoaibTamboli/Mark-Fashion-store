@@ -67,6 +67,18 @@ border-bottom: 1px solid var(--DBlue-color);
     width: 16rem;
 }
 
+.btn-login{
+    padding: 4px;
+    border-radius: 5px;
+    background-color: var(--primary-color);
+    
+}
+
+.btn-login a{
+    text-decoration: none;
+    color:var(--white-color);
+}
+
 .fa-icons{
     display: flex;
     width: 20rem;
